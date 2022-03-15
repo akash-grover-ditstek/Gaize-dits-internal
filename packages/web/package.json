@@ -38,10 +38,11 @@
       "web-vitals": "^2.1.2"
    },
    "scripts": {
-      "start": "react-scripts start",
-      "build": "cd packages/react-scripts && node bin/react-scripts.js build",
+      "start-client": "react-scripts start",
+      "build": "react-scripts build && (cd server && yarn install)",
       "test": "react-scripts test",
       "eject": "react-scripts eject",
+      "start": "cd server && yarn start",
       "lint": "eslint src",
       "lint-and-fix": "eslint . --ext .ts --fix",
       "prettier:fix": "prettier --write",
