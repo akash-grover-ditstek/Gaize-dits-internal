@@ -39,7 +39,7 @@
    },
    "scripts": {
       "start": "react-scripts start",
-      "build": "react-scripts build",
+      "build": "cd packages/react-scripts && node bin/react-scripts.js build",
       "test": "react-scripts test",
       "eject": "react-scripts eject",
       "lint": "eslint src",
