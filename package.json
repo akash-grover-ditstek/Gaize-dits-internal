@@ -2,8 +2,9 @@
   "name": "gaize",
   "private": true,
   "dependencies": {
+    "esm": "^3.2.25",
     "lerna": "^4.0.0"
-   },
+  },
   "scripts": {
     "start": "lerna run start --parallel"
   }
